@@ -1,0 +1,19 @@
+.gymEquipment-container {
+	background-color: rgb(246, 241, 241);
+	padding: 10px;
+}
+.gymCartImg {
+	width: 100%;
+	height: 188px;
+	border-radius: 5px;
+}
+.about {
+	text-align: justify;
+}
+button {
+	width: 100%;
+	border: none;
+	background-color: antiquewhite;
+	padding: 10px 30px;
+	border-radius: 5px;
+}

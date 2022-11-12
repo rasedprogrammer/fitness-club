@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "636fb1e5373d0406003790ab",
+    "profileImg": "https://avatars.githubusercontent.com/u/75846499?v=4",
+    "name": "Md Rased Molla",
+    "address": "Badd, Dhaka, Bangladesh",
+    "weight": 70,
+    "height": 5.8,
+    "profileAge": 26,
+    "image": "https://images.unsplash.com/photo-1637666056726-1c54002346e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "title": "Kettlebells",
+    "age": "25-30",
+    "second": 30,
+    "about": "Kettlebells can help you lose weight because exercises can use up to 600 muscles at a time increasing calorie burn, raising your metabolic rate and challenging your cardio. Training with kettlebells can also produce an after-burn effect leading to further calorie burn for up to 24 hours.\r\n"
+  },
+  {
+    "_id": "636fb1e5b65b4f03f7b7bff9",
+    "image": "https://images.unsplash.com/photo-1632077804406-188472f1a810?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "title": "Black Metal Kettle Bell",
+    "age": "20-25",
+    "second": 30,
+    "about": "Kettlebell exercises reveal and fix misalignments, compensations, asymmetries, and weaknesses in the body. Kettlebell training combines strength training with a high-intensity cardio workout, giving you an overall full-body workout in only about twenty minutes a day.\r\n"
+  },
+  {
+    "_id": "636fb1e53e06caa00f8b887f",
+    "image": "https://images.unsplash.com/photo-1562771242-a02d9090c90c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "title": "Small Dumbbells",
+    "age": "30-35",
+    "second": 30,
+    "about": "Does lifting small dumbbells burn fat? =Yes, lifting weights will burn fat. It will also give your body more natural fat-burning capacity even at rest. It'll boost your metabolism and give you a body that looks less fat, when compared to a body with less muscle but the same amount of fat tissue.\r\n"
+  },
+  {
+    "_id": "636fb1e5188d06233d90dcc8",
+    "image": "https://images.unsplash.com/photo-1620188526357-ff08e03da266?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "title": "Big Dumbbells",
+    "age": "20-25",
+    "second": 30,
+    "about": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight. With the muscle-building properties that they offer in a workout, you'll be able to burn calories not just during the session, but long after as well.\r\n"
+  },
+  {
+    "_id": "636fb1e5afb5320cd5286519",
+    "image": "https://images.unsplash.com/photo-1540111970170-b1c4d4fbadaa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+    "title": "Treadmill",
+    "age": "25-30",
+    "second": 30,
+    "about": "Treadmills provide outstanding cardiovascular exercises, which can significantly enhance your heart health. Thanks to their ability to maintain constant heart rates throughout the exercise. If you've high cholesterol or cardiovascular issues, this can be very beneficial.\r\n"
+  },
+  {
+    "_id": "636fb1e5c797e8fd090739d0",
+    "image": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    "title": "Rope Exercise",
+    "age": "20-25",
+    "second": 30,
+    "about": "Battle rope exercises are great for building muscular strength, increasing cardiorespiratory fitness, and enhancing athletic performance. They're low impact and can be performed sitting down, so they're a great alternative to other cardio exercises.\r\n"
+  },
+  {
+    "_id": "636fb1e56aad707694de8706",
+    "image": "https://www.shutterstock.com/image-photo/jumping-rope-on-white-background-600w-762692725.jpg",
+    "title": "Jump Rope Exercise",
+    "age": "25-30",
+    "second": 30,
+    "about": "Skipping rope is a great calorie-burner and improves the cardiovascular system. Skipping rope is the best cardio exercise as it increases the heart rate. This will significantly reduce the risk of heart diseases and stroke. Every cardio exercise will help you to focus on your goal.\r\n"
+  },
+  {
+    "_id": "636fb1e54872cbb91744feb7",
+    "image": "https://www.shutterstock.com/image-illustration/gym-bench-isolated-on-white-600w-57276286.jpg",
+    "title": "Gym Bench",
+    "age": "30-35",
+    "second": 30,
+    "about": "Gym bench other benefits of adding bench presses to your weight-training regimen include increasing upper body strength, improving muscular endurance, and even preparing your upper body to do movements like pushups. They also can be an effective strengthening exercise.\r\n"
+  },
+  {
+    "_id": "636fb1e590e4b415b8c8c751",
+    "image": "https://www.shutterstock.com/image-vector/vector-barbell-plates-gym-equipment-600w-1304993710.jpg",
+    "title": "Barbell Plates",
+    "age": "25-30",
+    "second": 30,
+    "about": "The barbell is the longer version of the dumbbell that is used for free weight training and competitive sports, such as powerlifting, Olympic weight lifting, and CrossFit. Many exercises can be done using the barbell, bench press, Olympic weightlifting, overhead press, deadlift.\r\n"
+  }
+]
