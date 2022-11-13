@@ -34,7 +34,7 @@ const Club = () => {
 					<div className="gym-cart">
 						{gymEquipment.map((equipmentCart) => (
 							<GymCart
-								key={equipmentCart.id}
+								key={equipmentCart._id}
 								equipmentCart={equipmentCart}
 								handleAddToClubCart={handleAddToClubCart}
 							></GymCart>

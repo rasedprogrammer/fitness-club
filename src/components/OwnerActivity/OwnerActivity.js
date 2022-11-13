@@ -1,11 +1,19 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./OwnerActivity.css";
 
 const OwnerActivity = (props) => {
 	const { gymCart } = props;
 	const [secondTimes, setSecondTimes] = useState([0]);
+
+	const showToastMessage = () => {
+		toast.success("Success Notification !", {
+			position: toast.POSITION.TOP_RIGHT,
+		});
+	};
 
 	let totalSeconds = 0;
 	for (const cart of gymCart) {
@@ -79,7 +87,10 @@ const OwnerActivity = (props) => {
 				</h4>
 				<h4>Brack time: {secondTimes}</h4>
 			</div>
-			<button className="activityBtn">Activity Completed</button>
+			<button className="activityBtn" onClick={showToastMessage}>
+				Activity Completed
+			</button>
+			<ToastContainer />
 		</div>
 	);
 };

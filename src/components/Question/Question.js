@@ -4,7 +4,7 @@ import "./Question.css";
 const Question = () => {
 	return (
 		<div className="question-container">
-			<h1>React Releted Question</h1>
+			<h1 className="title">React Releted Question</h1>
 			<h2>Question-01: How does react work?</h2>
 			<h5>
 				Answer:{" "}
