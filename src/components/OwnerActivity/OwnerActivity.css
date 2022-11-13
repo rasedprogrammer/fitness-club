@@ -18,6 +18,9 @@
 .profile-header-container p {
 	margin: 0;
 }
+.break-container {
+	margin-top: 50px;
+}
 .bracks-times {
 	display: flex;
 	justify-content: space-around;
@@ -27,4 +30,25 @@
 .bracks-times a {
 	text-decoration: none;
 	color: #777;
+}
+.bracks-times {
+	background-color: lightyellow;
+	padding: 10px;
+}
+.timeBtn {
+	width: 40px;
+	height: 40px;
+	border: none;
+	background-color: gray;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 50%;
+}
+.showBrackAndTimes {
+	margin-top: 50px;
+}
+.break-container h2,
+.showBrackAndTimes h2,
+.showBrackAndTimes h4 {
+	margin-bottom: 20px;
 }
