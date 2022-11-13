@@ -4,11 +4,17 @@ import "./Club.css";
 
 const Club = () => {
 	const [gymEquipment, setGymEquipment] = useState([]);
+	const [gymCart, setGymCart] = useState([]);
 	useEffect(() => {
 		fetch("fakeData.json")
 			.then((response) => response.json())
 			.then((data) => setGymEquipment(data));
 	}, []);
+
+	const handleAddToClubCart = (equipmentCart) => {
+		console.log(equipmentCart);
+	};
+
 	console.log(gymEquipment);
 	return (
 		<div>
@@ -21,6 +27,7 @@ const Club = () => {
 							<GymCart
 								key={equipmentCart.id}
 								equipmentCart={equipmentCart}
+								handleAddToClubCart={handleAddToClubCart}
 							></GymCart>
 						))}
 					</div>
