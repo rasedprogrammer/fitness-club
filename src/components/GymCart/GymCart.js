@@ -14,7 +14,10 @@ const GymCart = (props) => {
 				Second <b>{second}s</b>
 			</p>
 			<p className="about">{about}</p>
-			<button onClick={() => handleAddToClubCart(equipmentCart)}>
+			<button
+				className="gymCartBtn"
+				onClick={() => handleAddToClubCart(equipmentCart)}
+			>
 				Add To List
 			</button>
 		</div>

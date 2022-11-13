@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import GymCart from "../GymCart/GymCart";
+import OwnerActivity from "../OwnerActivity/OwnerActivity";
 import "./Club.css";
 
 const Club = () => {
@@ -12,10 +13,12 @@ const Club = () => {
 	}, []);
 
 	const handleAddToClubCart = (equipmentCart) => {
-		console.log(equipmentCart);
+		// console.log(equipmentCart);
+		const newGymCart = [...gymCart, equipmentCart];
+		setGymCart(newGymCart);
 	};
 
-	console.log(gymEquipment);
+	// console.log(gymEquipment);
 	return (
 		<div>
 			<div className="club-container">
@@ -32,17 +35,8 @@ const Club = () => {
 						))}
 					</div>
 				</div>
-				<div className="info-container">
-					<div className="profile-header-container">
-						<img
-							src="https://avatars.githubusercontent.com/u/75846499?v=4"
-							alt=""
-						/>
-						<div>
-							<h4>Md Rased Molla</h4>
-							<p>Badda, Dhaka, Bangladesh</p>
-						</div>
-					</div>
+				<div>
+					<OwnerActivity gymCart={gymCart}></OwnerActivity>
 				</div>
 			</div>
 		</div>
