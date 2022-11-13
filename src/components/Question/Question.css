@@ -6,3 +6,6 @@
 	border-bottom: 1px solid darksalmon;
 	border-top: 1px solid darksalmon;
 }
+.question-container p {
+	text-align: justify;
+}

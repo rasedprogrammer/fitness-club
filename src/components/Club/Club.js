@@ -14,14 +14,10 @@ const Club = () => {
 			.then((response) => response.json())
 			.then((data) => setGymEquipment(data));
 	}, []);
-
 	const handleAddToClubCart = (equipmentCart) => {
-		// console.log(equipmentCart);
 		const newGymCart = [...gymCart, equipmentCart];
 		setGymCart(newGymCart);
 	};
-
-	// console.log(gymEquipment);
 	return (
 		<div>
 			<div className="club-container">

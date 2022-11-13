@@ -2,7 +2,6 @@ import React from "react";
 import "./GymCart.css";
 
 const GymCart = (props) => {
-	// console.log(props.equipmentCart);
 	const { equipmentCart, handleAddToClubCart } = props;
 	const { title, age, image, second, about } = equipmentCart;
 	return (
