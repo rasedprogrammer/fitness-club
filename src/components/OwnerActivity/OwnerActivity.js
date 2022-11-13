@@ -1,3 +1,5 @@
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./OwnerActivity.css";
 
@@ -24,7 +26,13 @@ const OwnerActivity = (props) => {
 				/>
 				<div>
 					<h4>Md Rased Molla</h4>
-					<p>Badda, Dhaka, Bangladesh</p>
+					<p className="address">
+						<FontAwesomeIcon
+							className="addressIcon"
+							icon={faLocationDot}
+						></FontAwesomeIcon>
+						Badda, Dhaka, Bangladesh
+					</p>
 				</div>
 			</div>
 			<div className="personal-info">

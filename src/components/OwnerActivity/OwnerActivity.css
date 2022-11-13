@@ -18,6 +18,13 @@
 .profile-header-container p {
 	margin: 0;
 }
+.address {
+	font-size: 12px;
+}
+.addressIcon {
+	margin-right: 5px;
+	color: lightgray;
+}
 .personal-info {
 	display: flex;
 	justify-content: space-around;

@@ -1,12 +1,9 @@
-import {
-	faBasketballBall,
-	faCoffee,
-	faPersonWalking,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPersonWalking } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import GymCart from "../GymCart/GymCart";
 import OwnerActivity from "../OwnerActivity/OwnerActivity";
+import Question from "../Question/Question";
 import "./Club.css";
 
 const Club = () => {
@@ -43,6 +40,7 @@ const Club = () => {
 							></GymCart>
 						))}
 					</div>
+					<Question></Question>
 				</div>
 				<div className="personal-info">
 					<OwnerActivity gymCart={gymCart}></OwnerActivity>
