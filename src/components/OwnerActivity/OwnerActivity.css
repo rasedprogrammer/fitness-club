@@ -39,10 +39,14 @@
 	width: 40px;
 	height: 40px;
 	border: none;
-	background-color: gray;
+	/* background-color: gray; */
 	margin-left: 10px;
 	padding: 10px;
 	border-radius: 50%;
+}
+.timeBtn:hover {
+	background-color: darksalmon;
+	cursor: pointer;
 }
 .showBrackAndTimes {
 	margin-top: 50px;
@@ -51,4 +55,16 @@
 .showBrackAndTimes h2,
 .showBrackAndTimes h4 {
 	margin-bottom: 20px;
+}
+.activityBtn {
+	width: 100%;
+	border: none;
+	background-color: darksalmon;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 5px;
+}
+.activityBtn:hover {
+	color: black;
+	cursor: pointer;
 }

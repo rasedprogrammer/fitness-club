@@ -17,3 +17,7 @@
 	padding: 10px 30px;
 	border-radius: 5px;
 }
+.gymCartBtn:hover {
+	background-color: darksalmon;
+	cursor: pointer;
+}

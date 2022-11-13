@@ -23,7 +23,7 @@ const Club = () => {
 		<div>
 			<div className="club-container">
 				<div className="gym-container">
-					<h2>Fitness Club</h2>
+					<h2 className="titleTag">Fitness Club</h2>
 					<h4>Select Today's Exercise</h4>
 					<div className="gym-cart">
 						{gymEquipment.map((equipmentCart) => (
@@ -35,7 +35,7 @@ const Club = () => {
 						))}
 					</div>
 				</div>
-				<div>
+				<div className="personal-info">
 					<OwnerActivity gymCart={gymCart}></OwnerActivity>
 				</div>
 			</div>

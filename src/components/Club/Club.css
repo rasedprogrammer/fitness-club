@@ -2,6 +2,9 @@ h2,
 h4 {
 	margin: 0;
 }
+.titleTag {
+	margin-bottom: 10px;
+}
 .club-container {
 	display: grid;
 	grid-template-columns: 4fr 1fr;
@@ -9,10 +12,14 @@ h4 {
 .gym-container {
 	margin: 0;
 	padding: 20px 5%;
+	background-color: rgb(250, 245, 245);
 }
 .gym-cart {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 45px;
 	padding-top: 20px;
+}
+.personal-info {
+	padding: 10px;
 }

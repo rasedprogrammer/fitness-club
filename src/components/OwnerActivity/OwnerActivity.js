@@ -27,7 +27,13 @@ const OwnerActivity = (props) => {
 					<h4>Md Rased Molla</h4>
 					<p>Badda, Dhaka, Bangladesh</p>
 				</div>
-				<div className="personal-info"></div>
+			</div>
+			<div className="personal-info">
+				<h4>
+					70 <small>Kg</small>
+					<br />
+					<small>Weight</small>
+				</h4>
 			</div>
 			<div className="break-container">
 				<h2>Add A Brack</h2>
@@ -56,6 +62,7 @@ const OwnerActivity = (props) => {
 				</h4>
 				<h4>Brack time: {secondTimes}</h4>
 			</div>
+			<button className="activityBtn">Activity Completed</button>
 		</div>
 	);
 };
