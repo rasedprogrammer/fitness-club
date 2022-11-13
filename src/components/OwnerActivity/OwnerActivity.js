@@ -9,7 +9,6 @@ const OwnerActivity = (props) => {
 	for (const cart of gymCart) {
 		totalSeconds = totalSeconds + cart.second;
 	}
-	// let setSecondTimes = 0;
 
 	const brackTimes = (event) => {
 		const time = event.target.innerText;
@@ -30,9 +29,19 @@ const OwnerActivity = (props) => {
 			</div>
 			<div className="personal-info">
 				<h4>
-					70 <small>Kg</small>
+					70 <span>Kg</span>
 					<br />
-					<small>Weight</small>
+					<span>Weight</span>
+				</h4>
+				<h4>
+					5.8
+					<br />
+					<span>Height</span>
+				</h4>
+				<h4>
+					26<span>yrs</span>
+					<br />
+					<span>Age</span>
 				</h4>
 			</div>
 			<div className="break-container">

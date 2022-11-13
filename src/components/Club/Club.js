@@ -1,3 +1,9 @@
+import {
+	faBasketballBall,
+	faCoffee,
+	faPersonWalking,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import GymCart from "../GymCart/GymCart";
 import OwnerActivity from "../OwnerActivity/OwnerActivity";
@@ -23,8 +29,11 @@ const Club = () => {
 		<div>
 			<div className="club-container">
 				<div className="gym-container">
-					<h2 className="titleTag">Fitness Club</h2>
-					<h4>Select Today's Exercise</h4>
+					<h1 className="titleTag">
+						<FontAwesomeIcon className="icon" icon={faPersonWalking} />
+						Fitness Club
+					</h1>
+					<h3 className="select-option">Select Today's Exercise</h3>
 					<div className="gym-cart">
 						{gymEquipment.map((equipmentCart) => (
 							<GymCart

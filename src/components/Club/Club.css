@@ -1,9 +1,14 @@
-h2,
-h4 {
+h1,
+h3 {
 	margin: 0;
 }
 .titleTag {
 	margin-bottom: 10px;
+	text-align: center;
+	color: darksalmon;
+}
+.select-option {
+	margin-left: 20px;
 }
 .club-container {
 	display: grid;
@@ -22,4 +27,7 @@ h4 {
 }
 .personal-info {
 	padding: 10px;
+}
+.icon {
+	margin-right: 10px;
 }

@@ -18,8 +18,16 @@
 .profile-header-container p {
 	margin: 0;
 }
+.personal-info {
+	display: flex;
+	justify-content: space-around;
+}
+.personal-info span {
+	font-size: 12px;
+	font-weight: 400;
+}
 .break-container {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .bracks-times {
 	display: flex;
@@ -39,7 +47,6 @@
 	width: 40px;
 	height: 40px;
 	border: none;
-	/* background-color: gray; */
 	margin-left: 10px;
 	padding: 10px;
 	border-radius: 50%;
@@ -49,7 +56,7 @@
 	cursor: pointer;
 }
 .showBrackAndTimes {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .break-container h2,
 .showBrackAndTimes h2,
@@ -58,6 +65,7 @@
 }
 .activityBtn {
 	width: 100%;
+	margin-top: 20px;
 	border: none;
 	background-color: darksalmon;
 	padding: 10px 30px;
